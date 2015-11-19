@@ -362,6 +362,7 @@ header .header-content .header-content-inner p {
     transition: all .35s;
 }
 
+
 .btn-default:hover,
 .btn-default:focus,
 .btn-default.focus,
@@ -404,6 +405,57 @@ fieldset[disabled] .btn-default.active {
 .btn-default .badge {
     color: #fff;
     background-color: #222;
+}
+.btn-secondary {
+    border-color: #0064ff;
+    color: #fff;
+    background-color: #0064ff;
+    -webkit-transition: all .35s;
+    -moz-transition: all .35s;
+    transition: all .35s;
+}
+.btn-secondary:hover,
+.btn-secondary:focus,
+.btn-secondary.focus,
+.btn-secondary:active,
+.btn-secondary.active,
+.open > .dropdown-toggle.btn-secondary {
+    border-color: #ededed;
+    color: #222;
+    background-color: #f2f2f2;
+}
+
+.btn-secondary:active,
+.btn-secondary.active,
+.open > .dropdown-toggle.btn-secondary {
+    background-image: none;
+}
+
+.btn-secondary.disabled,
+.btn-secondary[disabled],
+fieldset[disabled] .btn-secondary,
+.btn-secondary.disabled:hover,
+.btn-secondary[disabled]:hover,
+fieldset[disabled] .btn-secondary:hover,
+.btn-secondary.disabled:focus,
+.btn-secondary[disabled]:focus,
+fieldset[disabled] .btn-secondary:focus,
+.btn-secondary.disabled.focus,
+.btn-secondary[disabled].focus,
+fieldset[disabled] .btn-secondary.focus,
+.btn-secondary.disabled:active,
+.btn-secondary[disabled]:active,
+fieldset[disabled] .btn-secondary:active,
+.btn-secondary.disabled.active,
+.btn-secondary[disabled].active,
+fieldset[disabled] .btn-secondary.active {
+    border-color: #0064ff;
+    background-color: #0064ff;
+}
+
+.btn-default .badge {
+    color: #fff;
+    background-color: #fff;
 }
 
 .btn-primary {
